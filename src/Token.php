@@ -14,6 +14,8 @@ class Token extends NeoEloquent
      */
     protected $table = 'oauth_access_tokens';
 
+    protected $primaryKey = 'uuid';
+
     /**
      * Indicates if the IDs are auto-incrementing.
      *
